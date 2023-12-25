@@ -44,16 +44,28 @@ namespace deneme1
                 SqlCommand cmd = new SqlCommand("Select * from hesap", baglantı);
                 SqlDataReader read = cmd.ExecuteReader();
 
+                bool dogruBilgiler = false;
 
                 while (read.Read())
                 {
                     if (txtEposta.Text == read["Email"].ToString().TrimEnd() && sifreliParola == read["Parola"].ToString().TrimEnd()) {
+
+                        dogruBilgiler = true;
                         anaSayfa anaSayfa = new anaSayfa();
                         anaSayfa.ShowDialog();
                         this.Hide();
+
+                        label5.Text = "";
+                        
+                        break;
                     }
                 }
                 baglantı.Close();
+
+                if (!dogruBilgiler)
+                {
+                    label5.Text = "Hesap bilgileri hatalı. Lütfen tekrar deneyin.";
+                }
             }
         }
 
