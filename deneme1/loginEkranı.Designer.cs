@@ -48,7 +48,7 @@
             this.txtParola.Multiline = true;
             this.txtParola.Name = "txtParola";
             this.txtParola.PasswordChar = '*';
-            this.txtParola.Size = new System.Drawing.Size(261, 22);
+            this.txtParola.Size = new System.Drawing.Size(322, 22);
             this.txtParola.TabIndex = 2;
             // 
             // txtEposta
@@ -57,7 +57,7 @@
             this.txtEposta.Location = new System.Drawing.Point(139, 87);
             this.txtEposta.Multiline = true;
             this.txtEposta.Name = "txtEposta";
-            this.txtEposta.Size = new System.Drawing.Size(292, 22);
+            this.txtEposta.Size = new System.Drawing.Size(322, 22);
             this.txtEposta.TabIndex = 3;
             this.txtEposta.Tag = "";
             // 
@@ -68,7 +68,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(37, 271);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(394, 47);
+            this.button2.Size = new System.Drawing.Size(450, 47);
             this.button2.TabIndex = 4;
             this.button2.Text = "giriş yap";
             this.button2.UseVisualStyleBackColor = false;
@@ -87,7 +87,7 @@
             this.panel1.Controls.Add(this.txtParola);
             this.panel1.Location = new System.Drawing.Point(240, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(479, 505);
+            this.panel1.Size = new System.Drawing.Size(519, 505);
             this.panel1.TabIndex = 5;
             // 
             // label5
@@ -95,7 +95,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(126, 351);
+            this.label5.Location = new System.Drawing.Point(75, 357);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 25);
             this.label5.TabIndex = 9;
@@ -126,7 +126,7 @@
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button3.Location = new System.Drawing.Point(164, 452);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 38);
+            this.button3.Size = new System.Drawing.Size(135, 38);
             this.button3.TabIndex = 6;
             this.button3.Text = "Üye olmak";
             this.button3.UseVisualStyleBackColor = false;
@@ -138,9 +138,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(45, 404);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(355, 22);
+            this.label2.Size = new System.Drawing.Size(453, 22);
             this.label2.TabIndex = 5;
-            this.label2.Text = " ----------- Freework hesabın yok mu?---------";
+            this.label2.Text = "-------------------Freework hesabın yok mu?-------------------";
             // 
             // label1
             // 

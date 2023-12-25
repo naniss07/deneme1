@@ -111,16 +111,19 @@ namespace deneme1
                     label8.Text = "";
                     label9.Text = "Kaydınız Başarıyla Yapıldı";
 
+                    
 
                 }
                 catch (System.Data.SqlClient.SqlException) { MessageBox.Show("Kayıt yapılamadı yeniden deneyin."); }
                 finally { connectionn.Close(); }
 
 
-
+                
 
 
             }
+
+            
 
         }
 
